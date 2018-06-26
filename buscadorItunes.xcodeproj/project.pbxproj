@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047EFE8A91F81F642FBE6692 /* Pods_buscadorItunes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944967F1C42F743EFDF75F35 /* Pods_buscadorItunes.framework */; };
+		0620A17B20DAF355003ED2F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0620A17A20DAF355003ED2F7 /* AppDelegate.swift */; };
+		0620A18220DAF359003ED2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0620A18120DAF359003ED2F7 /* Assets.xcassets */; };
+		0620A18520DAF359003ED2F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0620A18320DAF359003ED2F7 /* LaunchScreen.storyboard */; };
+		0620A18D20DC05FE003ED2F7 /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0620A18C20DC05FE003ED2F7 /* BaseNavigationViewController.swift */; };
+		0620A18F20DC0AA7003ED2F7 /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0620A18E20DC0AA7003ED2F7 /* MediaType.swift */; };
+		0620A19120DC0E4A003ED2F7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0620A19020DC0E4A003ED2F7 /* CustomButton.swift */; };
+		0620A19720DC9473003ED2F7 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0620A19620DC9473003ED2F7 /* SearchTableViewController.swift */; };
+		0620A19920DC97D4003ED2F7 /* AppPersonalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0620A19820DC97D4003ED2F7 /* AppPersonalization.swift */; };
+		0620A19B20DCAFD5003ED2F7 /* NetworkingServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0620A19A20DCAFD5003ED2F7 /* NetworkingServices.swift */; };
+		0620A19D20DCB351003ED2F7 /* TVShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0620A19C20DCB351003ED2F7 /* TVShow.swift */; };
+		0620A19F20DCB35B003ED2F7 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0620A19E20DCB35B003ED2F7 /* Music.swift */; };
+		0620A1A120DCB367003ED2F7 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0620A1A020DCB367003ED2F7 /* Movie.swift */; };
+		06BE3BCD20E144BD004A5432 /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BE3BCC20E144BD004A5432 /* SelectionButton.swift */; };
+		06BE3BCF20E1731A004A5432 /* CustomPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BE3BCE20E1731A004A5432 /* CustomPlayer.swift */; };
+		06BE3BD320E1C187004A5432 /* MediaServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BE3BD220E1C187004A5432 /* MediaServices.swift */; };
+		06BE3BD720E1C62D004A5432 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BE3BD620E1C62D004A5432 /* BaseTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0620A17720DAF355003ED2F7 /* buscadorItunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buscadorItunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0620A17A20DAF355003ED2F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0620A18120DAF359003ED2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0620A18420DAF359003ED2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0620A18620DAF359003ED2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0620A18C20DC05FE003ED2F7 /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
+		0620A18E20DC0AA7003ED2F7 /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
+		0620A19020DC0E4A003ED2F7 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		0620A19620DC9473003ED2F7 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		0620A19820DC97D4003ED2F7 /* AppPersonalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPersonalization.swift; sourceTree = "<group>"; };
+		0620A19A20DCAFD5003ED2F7 /* NetworkingServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingServices.swift; sourceTree = "<group>"; };
+		0620A19C20DCB351003ED2F7 /* TVShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShow.swift; sourceTree = "<group>"; };
+		0620A19E20DCB35B003ED2F7 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		0620A1A020DCB367003ED2F7 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		06BE3BCC20E144BD004A5432 /* SelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionButton.swift; sourceTree = "<group>"; };
+		06BE3BCE20E1731A004A5432 /* CustomPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlayer.swift; sourceTree = "<group>"; };
+		06BE3BD220E1C187004A5432 /* MediaServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaServices.swift; sourceTree = "<group>"; };
+		06BE3BD620E1C62D004A5432 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		944967F1C42F743EFDF75F35 /* Pods_buscadorItunes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_buscadorItunes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15B9DB118FB02E5882FBE3C /* Pods-buscadorItunes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buscadorItunes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-buscadorItunes/Pods-buscadorItunes.debug.xcconfig"; sourceTree = "<group>"; };
+		FEADD23605ED1AE57B892C4B /* Pods-buscadorItunes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buscadorItunes.release.xcconfig"; path = "Pods/Target Support Files/Pods-buscadorItunes/Pods-buscadorItunes.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0620A17420DAF355003ED2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047EFE8A91F81F642FBE6692 /* Pods_buscadorItunes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0620A16E20DAF355003ED2F7 = {
+			isa = PBXGroup;
+			children = (
+				0620A17920DAF355003ED2F7 /* buscadorItunes */,
+				0620A17820DAF355003ED2F7 /* Products */,
+				6DC71D88238B51C766E2DE24 /* Pods */,
+				975E6F39E7786C0D47A1E0C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0620A17820DAF355003ED2F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0620A17720DAF355003ED2F7 /* buscadorItunes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0620A17920DAF355003ED2F7 /* buscadorItunes */ = {
+			isa = PBXGroup;
+			children = (
+				06BE3BD820E28785004A5432 /* Views */,
+				0620A1A220DCB596003ED2F7 /* Model */,
+				06BE3BDA20E287CE004A5432 /* Utils */,
+				06BE3BD920E287C6004A5432 /* Networking */,
+				0620A17A20DAF355003ED2F7 /* AppDelegate.swift */,
+				06BE3BD220E1C187004A5432 /* MediaServices.swift */,
+				0620A18E20DC0AA7003ED2F7 /* MediaType.swift */,
+				0620A19620DC9473003ED2F7 /* SearchTableViewController.swift */,
+				0620A18C20DC05FE003ED2F7 /* BaseNavigationViewController.swift */,
+				06BE3BD620E1C62D004A5432 /* BaseTableViewController.swift */,
+				0620A18320DAF359003ED2F7 /* LaunchScreen.storyboard */,
+				0620A18620DAF359003ED2F7 /* Info.plist */,
+				0620A18120DAF359003ED2F7 /* Assets.xcassets */,
+			);
+			path = buscadorItunes;
+			sourceTree = "<group>";
+		};
+		0620A1A220DCB596003ED2F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0620A19C20DCB351003ED2F7 /* TVShow.swift */,
+				0620A19E20DCB35B003ED2F7 /* Music.swift */,
+				0620A1A020DCB367003ED2F7 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06BE3BD820E28785004A5432 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0620A19020DC0E4A003ED2F7 /* CustomButton.swift */,
+				06BE3BCC20E144BD004A5432 /* SelectionButton.swift */,
+				06BE3BCE20E1731A004A5432 /* CustomPlayer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		06BE3BD920E287C6004A5432 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0620A19A20DCAFD5003ED2F7 /* NetworkingServices.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		06BE3BDA20E287CE004A5432 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0620A19820DC97D4003ED2F7 /* AppPersonalization.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6DC71D88238B51C766E2DE24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C15B9DB118FB02E5882FBE3C /* Pods-buscadorItunes.debug.xcconfig */,
+				FEADD23605ED1AE57B892C4B /* Pods-buscadorItunes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		975E6F39E7786C0D47A1E0C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				944967F1C42F743EFDF75F35 /* Pods_buscadorItunes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0620A17620DAF355003ED2F7 /* buscadorItunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0620A18920DAF359003ED2F7 /* Build configuration list for PBXNativeTarget "buscadorItunes" */;
+			buildPhases = (
+				4DE28CA041711D090D248502 /* [CP] Check Pods Manifest.lock */,
+				0620A17320DAF355003ED2F7 /* Sources */,
+				0620A17420DAF355003ED2F7 /* Frameworks */,
+				0620A17520DAF355003ED2F7 /* Resources */,
+				1CB4E413D74875E845113E08 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = buscadorItunes;
+			productName = buscadorItunes;
+			productReference = 0620A17720DAF355003ED2F7 /* buscadorItunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0620A16F20DAF355003ED2F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Gabriel Quispe Delgadillo";
+				TargetAttributes = {
+					0620A17620DAF355003ED2F7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 0620A17220DAF355003ED2F7 /* Build configuration list for PBXProject "buscadorItunes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0620A16E20DAF355003ED2F7;
+			productRefGroup = 0620A17820DAF355003ED2F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0620A17620DAF355003ED2F7 /* buscadorItunes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0620A17520DAF355003ED2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0620A18520DAF359003ED2F7 /* LaunchScreen.storyboard in Resources */,
+				0620A18220DAF359003ED2F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CB4E413D74875E845113E08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-buscadorItunes/Pods-buscadorItunes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-buscadorItunes/Pods-buscadorItunes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DE28CA041711D090D248502 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-buscadorItunes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0620A17320DAF355003ED2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0620A18F20DC0AA7003ED2F7 /* MediaType.swift in Sources */,
+				06BE3BCF20E1731A004A5432 /* CustomPlayer.swift in Sources */,
+				0620A1A120DCB367003ED2F7 /* Movie.swift in Sources */,
+				06BE3BCD20E144BD004A5432 /* SelectionButton.swift in Sources */,
+				06BE3BD320E1C187004A5432 /* MediaServices.swift in Sources */,
+				0620A19B20DCAFD5003ED2F7 /* NetworkingServices.swift in Sources */,
+				0620A18D20DC05FE003ED2F7 /* BaseNavigationViewController.swift in Sources */,
+				0620A19720DC9473003ED2F7 /* SearchTableViewController.swift in Sources */,
+				06BE3BD720E1C62D004A5432 /* BaseTableViewController.swift in Sources */,
+				0620A19120DC0E4A003ED2F7 /* CustomButton.swift in Sources */,
+				0620A19F20DCB35B003ED2F7 /* Music.swift in Sources */,
+				0620A19920DC97D4003ED2F7 /* AppPersonalization.swift in Sources */,
+				0620A19D20DCB351003ED2F7 /* TVShow.swift in Sources */,
+				0620A17B20DAF355003ED2F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0620A18320DAF359003ED2F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0620A18420DAF359003ED2F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0620A18720DAF359003ED2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0620A18820DAF359003ED2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0620A18A20DAF359003ED2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C15B9DB118FB02E5882FBE3C /* Pods-buscadorItunes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FND8K9A7TG;
+				INFOPLIST_FILE = buscadorItunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielquispe.test.buscadorItunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0620A18B20DAF359003ED2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEADD23605ED1AE57B892C4B /* Pods-buscadorItunes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FND8K9A7TG;
+				INFOPLIST_FILE = buscadorItunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielquispe.test.buscadorItunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0620A17220DAF355003ED2F7 /* Build configuration list for PBXProject "buscadorItunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0620A18720DAF359003ED2F7 /* Debug */,
+				0620A18820DAF359003ED2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0620A18920DAF359003ED2F7 /* Build configuration list for PBXNativeTarget "buscadorItunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0620A18A20DAF359003ED2F7 /* Debug */,
+				0620A18B20DAF359003ED2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0620A16F20DAF355003ED2F7 /* Project object */;
+}
